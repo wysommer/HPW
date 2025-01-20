@@ -335,6 +335,10 @@ CONTACT
   color: #fff;
 }
 
+.phone__number {
+  color: lightgreen;
+}
+
 .contact__img--wrapper {
   width: 100%;
   display: flex;
@@ -561,10 +565,19 @@ RESPONSIVENESS
     padding: 12px;
   }
 
+  .logo__name--main {
+    font-size: 20px;
+  }
+
+  .page__title, .page__para {
+    text-align: left;
+  }
+
 }
 
 @media (max-width: 380px) {
-  .logo__name {
+
+  .logo__name--main {
     font-size: 18px;
   }
 
@@ -574,6 +587,34 @@ RESPONSIVENESS
 
   .main {
     padding: 55px 24px 0 24px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .logo__name--main {
+    font-size: 16px;
+  }
+
+  .logo__img {
+    max-width: 80px;
+  }
+
+  .menu {
+    margin-left: 0;
+  }
+
+  .menu__link {
+    font-size: 14px;
+  }
+
+  .page__title {
+    font-size: 18px;
+  }
+
+  .page__para {
+    font-size: 14px;
   }
 
 }
